@@ -1,0 +1,1047 @@
+# Ukrainian translation for pdfsam
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the pdfsam package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdfsam\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-12-13 22:12+0100\n"
+"PO-Revision-Date: 2017-12-27 01:49+0000\n"
+"Last-Translator: odisseus <Unknown>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-01-08 14:12+0000\n"
+"X-Generator: Launchpad (build 18847)\n"
+
+msgid "Pages to extract (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "Витягнути такі сторінки (приклад: 2 або 5-23 або 2,5-7,12-)"
+
+msgid "Invalid page ranges"
+msgstr "Недійсний набір сторінок"
+
+msgid "Extract pages:"
+msgstr "Витягнути сторінки:"
+
+msgid "Extract"
+msgstr "Витягнути"
+
+msgid "Extract pages from PDF documents."
+msgstr "Витягування сторінок з документів PDF."
+
+msgid "File names settings"
+msgstr "Налаштування назв файлів"
+
+msgid "Extract settings"
+msgstr "Налаштування витягування"
+
+msgid "Output settings"
+msgstr "Налаштування виводу"
+
+msgid "No PDF document has been selected"
+msgstr "Не обрано жодного документа PDF"
+
+msgid "Merge"
+msgstr "Об’єднати"
+
+msgid "Merge together multiple PDF documents or subsections of them."
+msgstr ""
+"Злиття (об’єднання) декількох  PDF документів разом або підрозділів з них."
+
+msgid "Merge settings"
+msgstr "Налаштування об'єднання"
+
+msgid "Destination file"
+msgstr "Файл призначення (готовий PDF)"
+
+msgid ""
+"Double click to set pages you want to merge (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Двічі клацніть, щоб подивитися сторінки, які ви хочете об'єднати (наприклад: "
+"2 або 5-23 або 2,5-7,12-)"
+
+msgid "Add a blank page if page number is odd"
+msgstr "Додати порожню сторінку, якщо номер сторінки непарний"
+
+msgid ""
+"Adds a blank page after each merged document if the document has an odd "
+"number of pages"
+msgstr ""
+"Додавати порожню сторінку після кожного об'єднаного документа, якщо документ "
+"має непарну кількість сторінок"
+
+msgid "Add a footer"
+msgstr "Додати нижній колонтитул"
+
+msgid "Adds a page footer with the name of the file the page belonged to."
+msgstr ""
+"Додавати нижній колонтитул з назвою файла, з якого походить дана сторінка."
+
+msgid "Normalize pages size"
+msgstr "Вирівняти розміри сторінок"
+
+msgid "Resizes all pages to have the same width as the first page."
+msgstr "Зробити всі сторінки такої ширини, як ширина першої сторінки."
+
+msgid "Merge fields"
+msgstr "Об’єднання полів"
+
+msgid "Merge renaming existing fields"
+msgstr "Злиття перейменованих існуючих полів"
+
+msgid "Flatten"
+msgstr ""
+
+msgid "Discard forms"
+msgstr "Викинути форми"
+
+msgid "Interactive forms (AcroForms):"
+msgstr "Інтерактивні форми (AcroForms):"
+
+msgid "What to do in case one or more input documents contain Acro Forms"
+msgstr "Що робити, якщо деякі з документів містять інтерактивні форми."
+
+msgid "Retain bookmarks"
+msgstr "Зберегти закладки"
+
+msgid "Discard bookmarks"
+msgstr "Викинути закладки"
+
+msgid "Create one entry for each merged document"
+msgstr "Створити по одному запису для кожного з об'єднаних документів"
+
+msgid "Retain bookmarks as one entry for each merged document"
+msgstr "Збережіть закладки як один запис для кожного об'єднаного документа"
+
+msgid "Bookmarks handling:"
+msgstr "Регулювання закладок:"
+
+msgid "What to do in case one or more input documents contain bookmarks"
+msgstr "Що робити, якщо деякі з документів містять закладки"
+
+msgid "Don't generate"
+msgstr "Не складати"
+
+msgid "Generate from file names"
+msgstr "Скласти із назв файлів"
+
+msgid "Generate from documents titles"
+msgstr "Скласти із заголовків документів"
+
+msgid "Table of contents:"
+msgstr "Зміст (покажчик):"
+
+msgid ""
+"Set if a table of contents should be added to the generated PDF document"
+msgstr "Чи складати покажчик змісту для створеного документу PDF"
+
+msgid "Valid user password provided."
+msgstr "Вірний пароль користувача надано."
+
+msgid "This document is encrypted, click to provide a password."
+msgstr "Цей документ захищено; клацніть, щоби ввести пароль."
+
+msgid "An error has occurred, click for more details."
+msgstr "Сталася помилка; клацніть, щоб отримати докладнішу інформацію."
+
+msgid "Roundish"
+msgstr "Округлена"
+
+msgid "Directories"
+msgstr "Теки:"
+
+#, java-format
+msgid "Invalid range: {0}."
+msgstr "Недійсний діапазон: {0}."
+
+#, java-format
+msgid ""
+"Ambiguous page range definition: {0}. Use following formats: [n] or [n1-n2] "
+"or [-n] or [n-]"
+msgstr ""
+"Визначено неоднозначний діапазон сторінок: {0}. Використовуйте такі формати: "
+"[n] або [n1-n2] або [-n] або [n-]"
+
+#, java-format
+msgid "Invalid number: {0}."
+msgstr "Неправильне число: {0}"
+
+msgid "Error saving log file."
+msgstr "Помилка при збереженні журналу логування"
+
+#, java-format
+msgid "File {0} saved."
+msgstr "Файл {0} збережено."
+
+msgid "Split"
+msgstr "Розділити"
+
+msgid "Security"
+msgstr "Безпека"
+
+msgid "Other"
+msgstr "Інше"
+
+msgid "Split by every \"n\" pages"
+msgstr "Розділити після кожної N-ї сторінки"
+
+msgid "Number of pages"
+msgstr "Кількість сторінок"
+
+msgid "Invalid number of pages"
+msgstr "Неправильний номер сторінки"
+
+msgid "Split a PDF document at the given page numbers."
+msgstr "Розділення PDF файлу на задані номери сторінок"
+
+msgid "Select or drag and drop the PDF you want to split"
+msgstr ""
+"Виберіть або перетягніть сюди документ PDF, який Ви хочете розбити на частини"
+
+msgid "Split settings"
+msgstr "Налаштування розділення"
+
+msgid "Every page"
+msgstr "Кожна сторінка"
+
+msgid "Even pages"
+msgstr "Парні сторінки"
+
+msgid "Odd pages"
+msgstr "Непарні сторінки"
+
+msgid "Split the document after the given page numbers"
+msgstr "Розділити документ після цих номерів сторінок"
+
+msgid ""
+"Splits the PDF every \"n\" pages creating documents of \"n\" pages each"
+msgstr "Розділити документ на рівні частини по N сторінок кожна"
+
+msgid "Split after"
+msgstr "Розділити після"
+
+msgid "No page selected"
+msgstr "Не вибрано жодної сторінки"
+
+msgid "Split after the following page numbers"
+msgstr "Розділяти після таких номерів сторінок"
+
+msgid "Page numbers to split at (n1,n2,n3..)"
+msgstr "Номера сторінок для розділення (№1, №2, №3)"
+
+msgid "Invalid page numbers"
+msgstr "Неправильний номер сторінки"
+
+msgid "Only valid positive page numbers are allowed"
+msgstr ""
+"Номери сторінок повинні бути додатними і відповідати існуючим сторінкам."
+
+msgid ""
+"Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Клацніть двічі, щоб вибрати сторінки, які слід обернути  (приклад: 2 або 5-"
+"23 або 2,5-7,12-)"
+
+msgid "Rotate"
+msgstr "Обертати"
+
+msgid "Rotate the pages of multiple PDF documents."
+msgstr "Поворот сторінок декількох документів PDF."
+
+msgid "Rotate settings"
+msgstr "Налаштування обертання"
+
+msgid "All pages"
+msgstr "Всі сторінки"
+
+msgid "90 degrees clockwise"
+msgstr "на 90 градусів за годинниковою стрілкою"
+
+msgid "180 degrees clockwise"
+msgstr "на 180 градусів"
+
+msgid "90 degrees counterclockwise"
+msgstr "на 90 градусів проти годинникової стрілки"
+
+msgid "Rotate "
+msgstr "Обертати "
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "Prefix for the generated files names"
+msgstr "Префікс для назв (імен) створених файлів"
+
+msgid "Add prefix"
+msgstr "Додати префікс до назви файлу"
+
+msgid "Generated PDF documents name prefix:"
+msgstr "Створити PDF файли з таким префіксом:"
+
+msgid "Prefix for the output files name."
+msgstr "Префікс для назв (імен) вихідних файлів"
+
+msgid "Some special keywords are replaced with runtime values."
+msgstr ""
+"Деякі спеціальні ключові слова замінюються на значеннями часу виконання."
+
+msgid "Right click to add these keywords."
+msgstr "Клацніть правою кнопкою миші, щоб додати ці ключові слова."
+
+msgid "Reverse"
+msgstr ""
+
+msgid "Drag and drop PDF files here"
+msgstr "Перетягніть PDF файл сюди"
+
+msgid "Set destination"
+msgstr "Встановити теку (папку) призначення"
+
+msgid "Set as range for all"
+msgstr ""
+
+msgid "Remove"
+msgstr "Видалити"
+
+msgid "Move to Top"
+msgstr "Перемістити нагору"
+
+msgid "Move Up"
+msgstr "Перемістити вище"
+
+msgid "Move Down"
+msgstr "Перемістити нижче"
+
+msgid "Move to Bottom"
+msgstr "Перемістити вниз"
+
+msgid "Duplicate"
+msgstr "Дублювати"
+
+msgid "Copy to clipboard"
+msgstr "Скопіювати до буфера"
+
+msgid "Document properties"
+msgstr "Властивості документа"
+
+msgid "Open"
+msgstr "Відкрити"
+
+msgid "Open Folder"
+msgstr "Відкрити теку"
+
+msgid "Drag and drop PDF files or directories containing PDF files"
+msgstr "Перетягуйте файли PDF або теки з файлами PDF"
+
+msgid "No PDF found"
+msgstr "Не знайдено жодного файла PDF"
+
+msgid "Pace"
+msgstr ""
+
+msgid ""
+"Double click to set the number of pages after which the task will switch to "
+"the next file"
+msgstr ""
+
+msgid "Pages"
+msgstr "Сторінки"
+
+msgid "Size"
+msgstr "Розмір"
+
+msgid "Modified"
+msgstr "Змінено"
+
+msgid "Add documents to the table"
+msgstr "Додати документи до таблиці"
+
+msgid "_Add"
+msgstr "_Додати"
+
+msgid "Select pdf documents to load"
+msgstr "Виберіть документи PDF, які треба заванажити"
+
+msgid "Removes selected documents"
+msgstr "Видалити обрані документи"
+
+msgid "_Remove"
+msgstr "_Вилучити"
+
+msgid "Removes every document"
+msgstr "Вилучити всі документи"
+
+msgid "_Clear"
+msgstr "_Очистити"
+
+msgid "C_lear all settings"
+msgstr ""
+
+msgid "Moves up selected documents"
+msgstr "Перемістити вгору вибрані документи"
+
+msgid "Move _Up"
+msgstr "Перемістити в_гору"
+
+msgid "Moves down selected documents"
+msgstr "Перемістити вниз обрані документи"
+
+msgid "Move _Down"
+msgstr "Перемістити в_низ"
+
+msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+
+msgid "Page ranges"
+msgstr "Діапазон сторінок"
+
+msgid "Name"
+msgstr "Назва"
+
+msgid "Enter the user password"
+msgstr "Ввести пароль користувача"
+
+msgid "Unlock"
+msgstr "Розблокувати"
+
+msgid "The selected PDF document is invalid"
+msgstr "Обраний PDF документ є поганим"
+
+#, java-format
+msgid "Pages: {0}, PDF Version: {1}"
+msgstr "Сторінок: {0}, версія PDF {1}"
+
+msgid "Loading..."
+msgstr "Завантаження…"
+
+msgid "Run"
+msgstr "Виконати"
+
+msgid "Invalid parameters"
+msgstr "Неправильні параметри"
+
+msgid "Requested"
+msgstr "Запит"
+
+msgid "Completed"
+msgstr "Завершено"
+
+msgid "Failed"
+msgstr "Помилка"
+
+msgid "Running"
+msgstr "Запущено"
+
+#, java-format
+msgid "Running {0}%"
+msgstr "Виконується {0}%"
+
+msgid "Show errors"
+msgstr "Показати помилки"
+
+msgid "The selected PDF file is invalid"
+msgstr "Обраний PDF файл пошкоджено"
+
+msgid "Compress output file/files"
+msgstr "Стискати вихідний файл(-и)"
+
+msgid ""
+"Tick the box if you don't want to retain any bookmark from the original PDF "
+"document"
+msgstr ""
+"Виберіть цей пункт, якщо ви не хочете переносити жодних закладок із "
+"оригінального документа PDF"
+
+msgid "Output PDF version:"
+msgstr "Вихідна версія PDF:"
+
+msgid "Show advanced settings"
+msgstr "Показати розширені налаштування"
+
+msgid "Hide advanced settings"
+msgstr "Приховати розширені налаштування"
+
+msgid "Select"
+msgstr "Вибрати"
+
+msgid "Browse"
+msgstr "Перегляд"
+
+#, java-format
+msgid "Version {0}"
+msgstr "Версія {0}"
+
+msgid "Same as the input document"
+msgstr "Як і вхідний файл (документ)"
+
+msgid "Overwrite if already exists"
+msgstr "Перезаписати, якщо вже існує"
+
+msgid ""
+"Tick the box if you want to overwrite the output files if they already exist."
+msgstr ""
+"Встановіть цей прапорець, якщо ви хочете, щоб програма перезаписала вихідні "
+"файли, якщо вони вже існують."
+
+msgid "Select a directory"
+msgstr "Вкажіть каталог"
+
+msgid "Select an existing directory"
+msgstr "Обрати вихідний каталог"
+
+msgid "Select a file"
+msgstr "Обрати файл"
+
+msgid "The selected file must exist. "
+msgstr "Обраний файл повинен існувати "
+
+#, java-format
+msgid "Allowed extensions are {0}"
+msgstr "Дозволені розширення {0}"
+
+msgid "An existing output directory is required"
+msgstr "Вихідний каталог повинен існувати"
+
+msgid "The output directory is required"
+msgstr "Необхідно обрати вихідний каталог"
+
+#, java-format
+msgid "PDF version required: {0}"
+msgstr "Необхідна версія PDF: {0}"
+
+msgid "Loading pdf documents"
+msgstr "Завантаження pdf документа"
+
+msgid "Documents loaded"
+msgstr "Документи завантажені"
+
+msgid "Checking for updates"
+msgstr "Перевірка оновлень"
+
+#, java-format
+msgid "PDFsam {0} is available for download"
+msgstr "PDFsam {0} доступна для завантаження"
+
+msgid "Unable to find the latest available version."
+msgstr "Не вдалося знайти останню доступну версію."
+
+msgid "Fetching premium modules"
+msgstr "Завантажую платні модулі"
+
+msgid "Unable to retrieve premium modules"
+msgstr "Не вдалося завантажити платні модулі"
+
+msgid "Unable to retrieve premium features description"
+msgstr "Не вдалося завантажити опис платних функцій"
+
+msgid "Requesting modules state"
+msgstr "Запит стану модулів"
+
+msgid "Unable to save modules workspace"
+msgstr "Неможливо зберегти модулі робочого простору"
+
+#, java-format
+msgid "Unable to save workspace to {0}"
+msgstr ""
+
+#, java-format
+msgid "Loading workspace from {0}"
+msgstr "Завантажено робочий простір з {0}"
+
+msgid "Workspace loaded"
+msgstr "Робочий простір завантажено"
+
+#, java-format
+msgid "Unable to load workspace from {0}"
+msgstr "Неможливо завантажити робочий простір {0}"
+
+#, java-format
+msgid "Saving workspace data to {0}"
+msgstr "Збереження даних робочого простору в {0}"
+
+msgid "Workspace saved"
+msgstr "Робочій простір збережено"
+
+msgid "Unable to retrieve latest news"
+msgstr "Не вдалося отримати останні новини"
+
+msgid "Fetching latest news"
+msgstr "Завантажую останні новини"
+
+msgid "Unable to retrieve the latest news"
+msgstr "Не вдалося отримати останні новини"
+
+msgid "Invalid bookmarks level"
+msgstr "Неправильний рівень закладок"
+
+msgid "Split by bookmarks"
+msgstr "Розділити по закладках"
+
+msgid ""
+"Split a PDF document at bookmarked pages by specifying a bookmark level."
+msgstr ""
+"Розділити документ по сторінках, на яких знаходяться закладки заданого рівня"
+
+msgid "Regular expression the bookmark has to match"
+msgstr "Регулярний вираз закладки повинен відповідати"
+
+msgid "Split at this bookmark level:"
+msgstr "Розділяти на такий рівень закладок:"
+
+msgid "Matching regular expression:"
+msgstr "Відповідність регулярного виразу:"
+
+msgid "A regular expression the bookmark text has to match"
+msgstr "Регулярний вираз тексту закладки повинен відповідати"
+
+msgid ""
+"Example: use .*Chapter.* to match bookmarks containing the word \"Chapter\""
+msgstr ""
+"Приклад: впишіть \".*Розділ.*\" (без лапок), щоб вибрати лише ті закладки, "
+"які містять слово \"Розділ\""
+
+msgid "Alternate Mix"
+msgstr "Чергування"
+
+msgid ""
+"Merge two or more PDF documents taking pages alternately in natural or "
+"reverse order."
+msgstr ""
+"Об'єднати два або більше документів PDF, беручи їх сторінки по черзі в "
+"прямому або зворотному порядку."
+
+msgid ""
+"Double click to set pages you want to mix (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Клацніть двічі, щоб вибрати сторінки, які треба змішати (приклад: 2 або 5-23 "
+"або 2,5-7,12-)"
+
+msgid "Select a positive integer number as pace"
+msgstr ""
+
+#, java-format
+msgid "Installing theme {0}."
+msgstr "Встановлено тему {0}"
+
+msgid "Document details"
+msgstr "Властивості документа"
+
+msgid "Summary"
+msgstr "Підсумок"
+
+msgid "Keywords"
+msgstr "Ключові слова"
+
+msgid "Settings"
+msgstr "Параметри"
+
+msgid "Subscribe to the official news feed"
+msgstr "Підписатися на офіційний канал новин"
+
+msgid "Environment"
+msgstr "Середовище"
+
+msgid "Java runtime path: %s"
+msgstr ""
+
+msgid "JavaFX runtime version %s"
+msgstr ""
+
+#, java-format
+msgid "Max memory {0}"
+msgstr "Максимально використано пам’яті {0}"
+
+msgid "Support"
+msgstr "Підтримка"
+
+msgid "Bug and feature requests"
+msgstr "Помилки та побажання"
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Contribute"
+msgstr "Підтримати"
+
+msgid "Fork PDFsam on GitHub"
+msgstr "PDFsam на GitHub"
+
+msgid "Translate"
+msgstr "Переклад"
+
+msgid "Donate"
+msgstr "Пожертвувати"
+
+msgid "Social"
+msgstr "Соціальні мережі"
+
+msgid "Follow us on Twitter"
+msgstr "Фоловити нас на Twitter"
+
+msgid "Like us on Facebook"
+msgstr "Сподобати на Facebook"
+
+msgid "Modules"
+msgstr "Модулі"
+
+msgid "Generate high quality thumbnails (slower)"
+msgstr "Створити мініатюри високої якості"
+
+msgid "Size in px:"
+msgstr "Розмір в пікселях (px):"
+
+msgid "Library used to generate thumbnails"
+msgstr "Бібліотека, яка використовується зля створення мініатюр"
+
+msgid "Thumbnails creator:"
+msgstr "Створювач мініатюр:"
+
+msgid "Dashboard"
+msgstr "Панель  управління"
+
+msgid "Check for updates at startup"
+msgstr "Перевіряти на оновлення при старті"
+
+msgid ""
+"Set whether new version availability should be checked on startup (restart "
+"needed)"
+msgstr ""
+"Вкажіть, чи перевіряти наявність нової версії при запуску програми "
+"(необхідна перезавантаження)"
+
+msgid "Check for news at startup"
+msgstr "Перевіряти новини при запуску"
+
+msgid ""
+"Set whether the application should check for news availability on startup "
+"(restart needed)"
+msgstr ""
+"Чи перевіряти наявність новин під час запуску програми (необхідний "
+"перезапуск)"
+
+msgid "Play alert sounds"
+msgstr "Відтворювати звуки повідомлення"
+
+msgid "Turn on or off alert sounds"
+msgstr "Включення або виключення звукових сигналів"
+
+msgid "Store passwords when saving a workspace file"
+msgstr ""
+
+msgid ""
+"If an encrypted PDF document has been opened with a password, save the "
+"password in the workspace file"
+msgstr ""
+
+msgid "Show donation window"
+msgstr "Показувати віконце пожертв"
+
+msgid ""
+"Turn on or off the notification appearing once in a while and asking the "
+"user to support PDFsam with a donation"
+msgstr "Чи показувати час від часу прохання про фінансову підтримку PDFsam"
+
+msgid "Show premium features"
+msgstr "Показувати платні функції"
+
+msgid ""
+"Set whether the application should fetch and show premium features "
+"description in the modules dashboard"
+msgstr ""
+
+msgid "Use the selected PDF document directory as output directory"
+msgstr "Використовувати  каталог обраного PDF документа як вихідний каталог"
+
+msgid "Save default workspace on exit"
+msgstr ""
+
+msgid "If a default workspace is set, save it on application exit"
+msgstr ""
+
+msgid "Maximum number of rows mast be a positive number"
+msgstr "Максимальна кількість рядків має бути позитивним числом"
+
+msgid "Log register rows:"
+msgstr "Зареєстровані рядки:"
+
+msgid "Maximum number of rows displayed by the Log register"
+msgstr "Максимальна кількість рядків, які відображуються в журналі подій"
+
+msgid "Manually selected"
+msgstr "Вибрати вручну"
+
+msgid ""
+"Automatically set the destination directory to the selected PDF document "
+"directory"
+msgstr ""
+"Автоматично встановити директорію призначення в обраний PDF документом "
+"каталог"
+
+msgid "Appearance"
+msgstr "Вигляд"
+
+msgid "Behavior"
+msgstr "Поведінка"
+
+msgid "Workspace"
+msgstr "Робочий простір"
+
+msgid "Output"
+msgstr "Вивід"
+
+msgid ""
+"Select a directory where documents will be saved and loaded by default"
+msgstr ""
+"Оберіть каталог, в якому документи будуть збережені та завантажені за "
+"замовчуванням"
+
+msgid ""
+"Select a previously saved workspace that will be automatically loaded at "
+"startup"
+msgstr ""
+"Оберіть раніше збережений робочий простір, який буде автоматично завантажено "
+"при запуску програми"
+
+msgid "Select a workspace"
+msgstr "Обрати робочий простір"
+
+msgid "Default working directory:"
+msgstr "Робочий каталог за умовчанням:"
+
+msgid "Load default workspace at startup:"
+msgstr "Встановити робочий простір за умовчуванням під час старту:"
+
+msgid "Clear usage statistics"
+msgstr "Очистити статистику"
+
+msgid "Check for updates now"
+msgstr "Перевірити зараз наявність оновлень"
+
+msgid "Language:"
+msgstr "Мова:"
+
+msgid "Set your preferred language (restart needed)"
+msgstr "Встановити основною мовою (необхідно перезапуск програми)"
+
+msgid "Startup module:"
+msgstr "Модулі при запуску:"
+
+msgid "Set the module to open at application startup (restart needed)"
+msgstr ""
+"Встановіть модуль, який буде відкрито при запуску програми (потрібен "
+"перезапуск)"
+
+msgid ""
+"Usage statistics are used to populate the modules quick bar on the left with "
+"the most used and most recently used modules."
+msgstr ""
+"Статистика роботи з програмою використовуються для заповнення панелі модулів "
+"(розташована зліва) з найбільш часто використовуваних  та нещодавно "
+"використовуваних модулів."
+
+msgid "Premium features"
+msgstr "Платні функції"
+
+msgid "About"
+msgstr "Про програму"
+
+msgid ""
+"Input parameters are invalid, open the application messages for details."
+msgstr ""
+"Вхідні параметри недійсні, відкрийте повідомлення додатків для отримання "
+"додаткової інформації."
+
+msgid "Access denied"
+msgstr ""
+
+#, java-format
+msgid ""
+"Unable to access \"{0}\", please make sure you have write permissions or "
+"open the application messages for details."
+msgstr ""
+
+#, java-format
+msgid "You performed {0} tasks with PDFsam, did it help?"
+msgstr "Ви виконали {0} завдань з PDFsam, це допомогло Вам?"
+
+msgid "Give something back"
+msgstr "Введіть що-небудь"
+
+msgid "PDFsam worked hard!"
+msgstr "PDFsam працює тяжко!"
+
+msgid "Spread the word!"
+msgstr ""
+
+msgid "Download"
+msgstr "Завантажити"
+
+msgid "New version available"
+msgstr "Доступна нова версія"
+
+msgid "Open with"
+msgstr "Відкрити за допомогою"
+
+msgid "Select the task to perform on the following files"
+msgstr ""
+
+msgid "Yes"
+msgstr "Так"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "Non existing directory"
+msgstr "Неіснуючий каталог"
+
+msgid "The selected output directory does not exist"
+msgstr "Обраний вихідний каталог не існує"
+
+msgid "Do you want to create it?"
+msgstr "Ви хочете створити його?"
+
+msgid "Directory not empty"
+msgstr "Каталог не порожній"
+
+msgid "The selected directory is not empty"
+msgstr "Обраний каталог не порожній"
+
+msgid "Overwrite files with the same name as the generated ones?"
+msgstr "Зберегти нові файли під тим же ім'ям, що і старі?"
+
+msgid "Don't overwrite existing file"
+msgstr "Не перезаписувати існуючий файл"
+
+msgid "Overwrite confirmation"
+msgstr "Підтвердження перезапису"
+
+msgid "A file with the given name already exists"
+msgstr "Файл із такою назвою вже існує"
+
+msgid "Do you want to overwrite it?"
+msgstr "Хочете його перезаписати?"
+
+msgid "Task failed"
+msgstr "Не вдалося виконати завдання"
+
+msgid "PDFsam can try to overcome the failure"
+msgstr ""
+
+msgid ""
+"It may result in PDF files with partial or missing data, proceed anyway?"
+msgstr ""
+
+msgid "Overwrite"
+msgstr "Перезаписати"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "What's new"
+msgstr "Що нового"
+
+msgid "_Modules"
+msgstr "_Модулі"
+
+msgid "E_xit"
+msgstr "В_ийти"
+
+msgid "_Settings"
+msgstr ""
+
+msgid "Application messages"
+msgstr "Повідомлення програми"
+
+msgid "_Workspace"
+msgstr "_Робочий простір"
+
+msgid "_Load"
+msgstr "_Завантажити"
+
+msgid "_Save"
+msgstr "_Зберегти"
+
+msgid "Recen_ts"
+msgstr ""
+
+msgid "_Clear recents"
+msgstr ""
+
+msgid "Select the workspace file to save"
+msgstr "Обрати файл Робочого простору для збереження"
+
+msgid "Select the workspace to load"
+msgstr "Обрати Робочій простір при завантаженні"
+
+msgid "Log register"
+msgstr "Реєстрація логування"
+
+msgid "Copy"
+msgstr "Копіювати"
+
+msgid "Clear"
+msgstr "Спорожнити"
+
+msgid "Select all"
+msgstr "Позначити все"
+
+msgid "Save log"
+msgstr "Зберегти звіт"
+
+msgid "Select where to save the log file"
+msgstr "Оберіть де зберігати файл логування"
+
+#, java-format
+msgid "Started in {0}"
+msgstr "Запущено в {0}"
+
+msgid "Closing PDFsam..."
+msgstr "Закриття PDFsam..."
+
+msgid "Megabytes"
+msgstr "Мегабайтах"
+
+msgid "MB"
+msgstr "Мб"
+
+msgid "Kilobytes"
+msgstr "Кілобайт"
+
+msgid "KB"
+msgstr "Кб"
+
+msgid "Split by size"
+msgstr "Розбити за розміром"
+
+msgid "Split a PDF document in files of the given size (roughly)."
+msgstr "Розділити документ PDF на файли заданого розміру (приблизно)."
+
+msgid "Set the size to split at"
+msgstr "Встановити розмір при розрізанні"
+
+msgid "Size must be a number"
+msgstr "Розмір має бути числом"
+
+msgid "Split at this size:"
+msgstr "Розбити на файли такого розміру:"
+
+msgid "Invalid split size"
+msgstr "Неправильний розмір файла"
+
+#~ msgid "Destination folder"
+#~ msgstr "Цільова тека"
+
+#~ msgid "Never"
+#~ msgstr "Ніколи"
+
+#~ msgid "Theme:"
+#~ msgstr "Тема:"
+
+#~ msgid "Split even pages"
+#~ msgstr "Розділити парні сторінки"
+
+#~ msgid "Split odd pages"
+#~ msgstr "Розділити непарні сторінки"
