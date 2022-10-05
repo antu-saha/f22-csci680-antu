@@ -87,6 +87,7 @@ public class RecentFilesProvider implements DynamicMenuProvider
 			menu.add(menuItem);
 			return;
 		}
+		// the following portion of the code looks like it contains our concept (by searching recent files)
 
 		final List<JMenuItem> menuItems = new ArrayList<JMenuItem>();
 		final JTextField text = new JTextField();
@@ -106,6 +107,8 @@ public class RecentFilesProvider implements DynamicMenuProvider
 					if ((! typedText.contains("*")) && (! typedText.contains("?")))
 					{
 						// Old style (before jEdit 4.3pre18): Match start of file name
+						// this seems like we need to work on
+						// it seems the regex is building the string that we want to search
 						regex = regex + "*";
 					}
 					pattern = Pattern.compile(StandardUtilities.globToRE(regex),
