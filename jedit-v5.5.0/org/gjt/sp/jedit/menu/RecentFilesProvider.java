@@ -110,7 +110,10 @@ public class RecentFilesProvider implements DynamicMenuProvider
 						// this seems like we need to work on
 						// it seems the regex is building the string that we want to search
 						// this is our first solution
-						regex = "*" + regex + "*";
+						//regex = "*" + regex + "*";
+
+						// this is our second solution
+						regex = regex + "*";
 					}
 					pattern = Pattern.compile(StandardUtilities.globToRE(regex),
 						Pattern.CASE_INSENSITIVE);
@@ -120,7 +123,7 @@ public class RecentFilesProvider implements DynamicMenuProvider
 					for (JMenuItem recent : menuItems)
 					{
 						recent.setEnabled(filter ?
-							pattern.matcher(recent.getText()).matches() : true);
+							pattern.matcher(recent.getText()).find() : true);	// we made changes here
 					}
 				}
 				catch(PatternSyntaxException re)
