@@ -109,7 +109,8 @@ public class RecentFilesProvider implements DynamicMenuProvider
 						// Old style (before jEdit 4.3pre18): Match start of file name
 						// this seems like we need to work on
 						// it seems the regex is building the string that we want to search
-						regex = regex + "*";
+						// this is our first solution
+						regex = "*" + regex + "*";
 					}
 					pattern = Pattern.compile(StandardUtilities.globToRE(regex),
 						Pattern.CASE_INSENSITIVE);
